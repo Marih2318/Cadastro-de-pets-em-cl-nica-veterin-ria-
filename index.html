@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>cadastro de pets em clinica veterinaria</h1>
+    <br>
+    <fieldset>
+        <legend>Informações do pet</legend>
+        <input type="text" name="nome do cachorro ou outro" placeholder="Nome do cachorro">
+        <input type="email" name="raça" placeholder="raça">
+      </fieldset>
+    <br>
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <input type="text" name="name" placeholder="Nome">
+        <input type="email" name="email" placeholder="Email">
+      </fieldset>
+    <br>
+    <label for="age">Idade do pet:</label>
+<input type="number" id="age" name="age" min="1" max="100">
+<br>
+<h1>genero do pet</h1>
+<br>
+<label for="gender-male">
+    <input type="radio" id="gender-male" name="gender" value="male">
+    Macho
+  </label>
+  <label for="gender-female">
+    <input type="radio" id="gender-female" name="gender" value="female">
+    Femea
+  </label>
+<br>
+<label for="message">Algo extra?</label>
+<textarea id="message" name="message" rows="4" cols="50"></textarea>
+<br>
+<button type="submit">Enviar</button>
+</body>
+</html>
